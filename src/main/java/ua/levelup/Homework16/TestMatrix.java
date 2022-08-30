@@ -40,6 +40,6 @@ public class TestMatrix {
                 }
             }
         }
-        System.out.println("Total time="+((System.nanoTime()-time)/1_000)+"ms");
+        System.out.println("Total time="+((System.nanoTime()-time)/1_000)+"mсs");
     }
 }

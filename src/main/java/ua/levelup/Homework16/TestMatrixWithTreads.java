@@ -30,6 +30,6 @@ public class TestMatrixWithTreads {
         long time = System.nanoTime();
         executor.execute(new TestTread(declaredMethods,object));
         executor.shutdown();
-        System.out.println("Total time="+((System.nanoTime()-time)/1_000)+"ms");
+        System.out.println("Total time="+((System.nanoTime()-time)/1_000)+"mсs");
     }
 }
